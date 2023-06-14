@@ -1,0 +1,53 @@
+*{
+    border: 0;
+    padding: 0;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.divTitulo{
+    width: 100% !important;
+    display: table;
+    font-size: 25px;
+}
+
+.divFormulario{
+    width: 50%;
+    display: table;
+    position: relative;
+    margin-top: 10px;
+}
+
+.input{
+    box-sizing:  border-box;
+    padding: 15px 15px 15px 38px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.input-icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top:60%;
+    transform: translateY(-50%);
+}
+
+.contentForm{
+    position: relative;
+    width: 80%;
+    margin: 20px;
+}
+
+.divSubTitulo{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
